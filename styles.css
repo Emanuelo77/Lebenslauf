@@ -1,13 +1,14 @@
 *{
-    background-color: #bd925b6a;
+    background-color: #bd5e5b6a;
+    style="background-color:DodgerBlue;">Hello World</h1>
+    <p style="background-color:Tomato;">Lorem ipsum...</p>
     font-family: 'Lucida Sans', sans-serif;
     color: #6d6565a0;
     line-height: 2;
 }
 h1 {
 
-    <h1>style="background-color:DodgerBlue;">Hello World</h1>
-  <p style="background-color:Tomato;">Lorem ipsum...</p>
+    
     color: #136f71;
     font-weight: bolder;
     text-transform:  normal;
