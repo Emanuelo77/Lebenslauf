@@ -1,0 +1,13 @@
+*{
+    background-color: #bd895b;
+    font-family: 'Lucida Sans', sans-serif;
+    color: #333;
+    line-height: 2;
+}
+h1 {
+
+    color: #136f71;
+    font-weight: bolder;
+    text-transform:  normal;
+    font-size: 300;
+}
