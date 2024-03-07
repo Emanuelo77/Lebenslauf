@@ -1,46 +1,18 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
 body{
-    background-image: ('JUNG.JPG');
- color: rgba(175, 10, 10, 0.933);
- font-family: "Times New Roman", Times, serif;
-
-}
-h1 {
-
- color: #7a8640;
- font-weight: bolder;
- text-transform:  normal;
- font-size: 300;
-}
-h2 {
- color: #0b0b0a
- font-weight: black;
- text-transform: uppercase;
- font-size: bold;
+    font-family: sans-serif;
+    line-height: 1.5;
+    color:#fff;
+    background: lineal-gradient(to right,#363795,#005c97);
 }
 
-
-
-nav ul{
-
- list-style: none;
- background-color:rgb(153, 36, 199);
-}
-
-nav ul li {
- margin-left: 10ex;
- background-color:rgb(153, 36, 199);
-
-}
-nav ul li a{
- color: rgb(245, 147, 42);
- text-transform:  uppercase;
- text-decoration: none;
- font-weight: bold;
- font-family: monospace;
-}
-nav a:hover {
- color: #006eff; /* Textfarbe ändern beim Überfahren */
-}
-nav :any-link{
-  ::-webkit-slider-thumb
+.page-conteiner{
+    width: 480px;
+    max-width: 100%;
+    padding: 16px;
 }
