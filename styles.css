@@ -7,12 +7,91 @@
 body{
     font-family: sans-serif;
     line-height: 1.5;
-    color:#fff;
-    background: lineal-gradient(to right,#363795,#005c97);
+    color:#0a359275;
+    background: lineal-gradient(to right, #363795,#005c97);
 }
 
 .page-conteiner{
     width: 480px;
     max-width: 100%;
     padding: 16px;
+}
+
+section{
+    margin-bottom: 32px;
+
+}
+section .section-titel{
+    font-size: 24px;
+    margin-bottom: 16px;
+}
+header {
+    background-image: url('./images/cover.jpg.png');
+    height: 250px;
+    background-position: center center;
+    background-size: cover;
+}
+.profile{
+    text-align: center;
+    margin-top: -75px;
+}
+.profile-image{
+    width: 150px;
+    height: 150x;
+    border: solid 4px #fff;
+    border-radius: 50%;
+    display: inline-block;
+}
+.profile-image img{
+    max-width: 100%;
+    border-radius: 50%;
+}
+.profile-details{
+    font: size 16px; ;
+    margin: 24px 0;
+}
+.profile-details h1{
+    font: size 32px; ;
+    margin-bottom: 16px;
+}
+
+.tags span{
+    font: size 14px; 
+    background-color:#3d64a6;
+    padding:8px;
+    border-radius: 5px;
+}
+.Projekt{
+    font-size: 16px;
+    background-color:#3d64a6;
+    border-radius: 5px;
+    margin-bottom: 16px;
+    position: relative;
+}
+.Projekt img{
+    max-width: 100%;
+}
+.Projekt .projekt-titel {
+    padding: 16px
+}
+.projekt-details {
+    background-color:#3d64a6;
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    padding: 16px;
+}
+.profile-details .btn-outline{
+    text-align: center;
+    text-decoration: none;
+    color: #fff;
+    padding: 8px;
+    border: solid 2px #fff;
+    border-radius: 5px;
+    position:absolute;
+    left: 16px;
+    right: 16px;
+    bottom: 16px; 
 }
