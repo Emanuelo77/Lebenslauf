@@ -7,7 +7,7 @@
 body{
     font-family: sans-serif;
     line-height: 1.5;
-    color:#0a359275;
+    color:#230000;
     background: lineal-gradient(to right, #363795,#005c97);
 }
 
@@ -15,6 +15,8 @@ body{
     width: 480px;
     max-width: 100%;
     padding: 16px;
+    margin: 0 auto;
+
 }
 
 section{
@@ -67,14 +69,17 @@ header {
     border-radius: 5px;
     margin-bottom: 16px;
     position: relative;
+    overflow: hidden ;
 }
 .Projekt img{
-    max-width: 100%;
+    background-image: url('./images/Küche.jpg');
+    max-width: 30%;
 }
 .Projekt .projekt-titel {
     padding: 16px
 }
-.projekt-details {
+.projket-detalies {
+    display: none;
     background-color:#3d64a6;
     position: absolute;
     top: 0;
@@ -94,4 +99,48 @@ header {
     left: 16px;
     right: 16px;
     bottom: 16px; 
+}
+.projket-detalies .btn-outline:hover{
+     color: #3d64a6;
+     background-color:#fff;
+}
+
+.projekt:hover .projket-detalies {
+    display: block;
+}
+.Profile-Links{
+    list-style: none;
+}
+.Profile-Links li a {
+    font-size: 16px;
+    text-decoration: none;
+    color:#fff;
+    background-color: #3d64a6;
+    padding: 16px;
+    display: block;
+    margin: 8px 0;
+    border-radius: 5px;
+}
+.Profile-Links li a:hover{
+    background-color: #2b579e;
+}
+footer{
+    font: size 16px;
+    text-align: center;
+    padding: 16px 0; 
+}
+@media screen and (min-width: 768px) {
+
+    .Projekt{
+        overflow: hidden;
+    }
+
+    .Projekt{
+        width: 48%;
+    }
+
+    .Projekt:nth-child(2n + 1) {
+        float: left;
+        margin-right: 4%;
+    }
 }
