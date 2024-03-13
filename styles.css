@@ -5,10 +5,16 @@
 }
 
 body{
-    font-family: sans-serif;
-    line-height: 1.5;
-    color:#ded5d5;
-    background-color: #3d64a6;
+    font-family: monospace;
+    line-height:1.5;
+    height: 30px;
+    background-size: 38cm;
+
+   
+    color:#f8f9f9;;
+      
+    background-color: #adb1acc6;
+    
 }
 
 .page-conteiner{
@@ -19,6 +25,9 @@ body{
 
 }
 
+.page-conteiner .tags li a:hover{
+    background-color: #2b579e;
+}
 section{
     margin-bottom: 32px;
 
@@ -28,8 +37,8 @@ section .section-titel{
     margin-bottom: 16px;
 }
 header {
-    background-image: url('./images/cover.jpg.png');
-    height: 250px;
+    background-image: url('./images/nature.jpg');
+    height: 150px;
     background-position: center center;
     background-size: cover;
 }
@@ -45,7 +54,7 @@ header {
     display: inline-block;
 }
 .profile-image img{
-    max-width: 100%;
+    max-width: 102%;
     border-radius: 50%;
 }
 .profile-details{
@@ -59,13 +68,28 @@ header {
 
 .tags span{
     font: size 14px; 
-    background-color:#3d64a6;
+    background-color:#2b579e;
+   font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 1rem;
+    text-decoration: none;
+    color: #fff;
     padding:8px;
     border-radius: 5px;
 }
+.tags span li a{
+    font: size 14px; 
+    background-color:#2b579e;
+    color: #fff;
+    padding:8px;
+    border-radius: 5px;
+}
+.tags span li a:hover{
+    background-color: #9e2b48;
+    color: aliceblue;
+}
 .Projekt{
     font-size: 1rem;
-    background-color:#3d64a6;
+    background-color:#2b579e;
     border-radius: 5px;
     margin-bottom: 16px;
     position: relative;
@@ -101,7 +125,7 @@ header {
     bottom: 16px; 
 }
 .projket-detalies .btn-outline:hover{
-     color: #3d64a6;
+     color: #3da63d;
      background-color:#fff;
 }
 
@@ -114,8 +138,8 @@ header {
 .Profile-Links li a {
     font-size: 1rem;
     text-decoration: none;
-    color:#fff;
-    background-color: #3d64a6;
+    color:#ffff;
+    background-color: #3d4da6;
     padding: 16px;
     display: block;
     margin: 8px 0;
